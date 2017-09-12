@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageCompletionClass</class>
+ <widget class="QMainWindow" name="ImageCompletionClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ImageCompletion</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>789</width>
+       <height>449</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>781</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>792</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_Image"/>
+    <addaction name="actionOpen_Mask"/>
+   </widget>
+   <widget class="QMenu" name="menuTrans_Colors">
+    <property name="title">
+     <string>Trans Colors</string>
+    </property>
+    <addaction name="actionTo_YCbCr"/>
+   </widget>
+   <widget class="QMenu" name="menuImage_Completion">
+    <property name="title">
+     <string>Image Completion</string>
+    </property>
+    <addaction name="actionCompute_WHT"/>
+    <addaction name="actionGenerate_KD_Tree"/>
+    <addaction name="actionStatistics_of_Patch_Offset"/>
+    <addaction name="actionGCoptimization"/>
+    <addaction name="actionCompletion"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTrans_Colors"/>
+   <addaction name="menuImage_Completion"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen_Image">
+   <property name="text">
+    <string>Open Image</string>
+   </property>
+  </action>
+  <action name="actionOpen_Mask">
+   <property name="text">
+    <string>Open Mask</string>
+   </property>
+  </action>
+  <action name="actionTo_YCbCr">
+   <property name="text">
+    <string>To YCbCr</string>
+   </property>
+  </action>
+  <action name="actionCompute_WHT">
+   <property name="text">
+    <string>Compute WHT</string>
+   </property>
+  </action>
+  <action name="actionGenerate_KD_Tree">
+   <property name="text">
+    <string>Generate KD-Tree</string>
+   </property>
+  </action>
+  <action name="actionStatistics_of_Patch_Offset">
+   <property name="text">
+    <string>Statistics of Patch Offset</string>
+   </property>
+  </action>
+  <action name="actionGCoptimization">
+   <property name="text">
+    <string>GCoptimization</string>
+   </property>
+  </action>
+  <action name="actionCompletion">
+   <property name="text">
+    <string>Completion</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagecompletion.qrc"/>
+ </resources>
+ <connections/>
+</ui>
