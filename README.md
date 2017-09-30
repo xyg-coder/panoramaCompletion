@@ -11,11 +11,11 @@ The result can be seen on the paper "A UNIFIED BLENDING FRAMEWORK FOR PANORAMA C
 CUTS"
 
 ### Method Progress
-![Image failed](./method step.png "method")
+![Image failed](https://github.com/XinyuanGui/panoramaCompletion/blob/master/method%20step.png "method")
 
 ### Effect image
 * graph cuts comparison: left is the original image, the median is effect with our improved graph cuts, the right is the effect from `He and Sun (2014)`<br>
-![Image failed](./effect comparison.png "effect comparison")
+![Image failed](https://github.com/XinyuanGui/panoramaCompletion/blob/master/effect%20comparison.png "effect comparison")
 
 * Effect: left is original image, the right is our panorama completion effect<br>
-![Image failed](./completion effect.png "effect")
+![Image failed](https://github.com/XinyuanGui/panoramaCompletion/blob/master/completion%20effect.png "effect")
